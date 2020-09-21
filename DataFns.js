@@ -16,8 +16,4 @@ class DataFns {
 
 };
 
-const showData = new DataFn('2020-09-19');
-
-showData.formatToDayMonthYear();
-
 module.exports = DataFns;
