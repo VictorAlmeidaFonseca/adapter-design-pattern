@@ -1,5 +1,5 @@
-const DataConvert = require('./data-adapter');
+const DataFormater = require('./DataAdapter');
 
-const showData = new DataConvert('2020-09-19');
+const showData = new DataFormater('2020-09-19');
 
 showData.formatToDayMonthYear();
