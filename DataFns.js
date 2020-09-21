@@ -1,7 +1,7 @@
 const dataFn = require('date-fns/format');
 const parseIso = require('date-fns/parseISO');
 
-class DataFn {
+class DataFns {
     constructor(inputData) {
         this.inputData = inputData;
     }
@@ -20,4 +20,4 @@ const showData = new DataFn('2020-09-19');
 
 showData.formatToDayMonthYear();
 
-module.exports = DataFn;
+module.exports = DataFns;
